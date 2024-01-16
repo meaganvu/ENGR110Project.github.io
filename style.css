@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Copperplate', fantasy;
+    box-sizing: border-box;
+}
+
+body{
+    background: #CBD5C0;
+    color: #fff;
+}
+#header{
+    width:100%;
+    /* background-color: #9CAF88;; */
+    /* height: 100vh; */
+    background-size: contain;
+    background-position: center;
+}
+.container{
+    padding: 20px 5%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    /* display: flex; */
+}
+
+#TopBanner{
+    background-color: #9CAF88;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#description{
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #CBD5C0;
+    width: 100vw;
+    height: 80vh;
+    padding: 10%;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    padding-left: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#description p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#TopBanner b{
+    color: white;
+    font-size: 4rem;
+}
