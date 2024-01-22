@@ -80,6 +80,6 @@ ul li a{
 
 img{
     width:50vw;
-    
+    border-radius: 50%
     /* height:100vh; */
 }
