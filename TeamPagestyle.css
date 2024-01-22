@@ -37,18 +37,23 @@ li{
     padding-left: 10px;
 }
 
-ul li a{
+li a{
     text-decoration: none;
     color: white;
 }
+
+
 
 #person{
     width: 100vw;
     height: 50vh;
     background-color: #CBD5C0;
     display: flex;
-    margin-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-top: 5%;
+    margin-bottom: 5%;
+    
 }
 
 #TopBanner{
@@ -68,8 +73,6 @@ ul li a{
 #description{
     justify-content: center;
     background-color: #CBD5C0;
-    width: 100vw;
-    height: 100vh;
 }
 
 #description p{
