@@ -27,32 +27,6 @@ nav{
     flex-wrap: wrap;
 }
 
-section{
-    width: 100vw;
-    height: 50vh;
-    background-color: #CBD5C0;
-    display: flex;
-}
-
-#TopBanner{
-    background-color: #9CAF88;
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#description{
-    /* display: flex; */
-    /* align-items: center; */
-    justify-content: center;
-    background-color: #CBD5C0;
-    width: 100vw;
-    height: 100vh;
-    padding: 10%;
-}
-
 ul{
     display: flex;
     text-decoration: none;
@@ -68,9 +42,22 @@ ul li a{
     color: white;
 }
 
-#description p{
-    font-size: 1.5rem;
-    color: white;
+#person{
+    width: 100vw;
+    height: 50vh;
+    background-color: #CBD5C0;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#TopBanner{
+    background-color: #9CAF88;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #TopBanner b{
@@ -78,12 +65,27 @@ ul li a{
     font-size: 4rem;
 }
 
+#description{
+    justify-content: center;
+    background-color: #CBD5C0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#description p{
+    font-size: 1.25rem;
+    color: white;
+}
+
 img{
     width:50vw;
     border-radius: 50%
-    /* height:100vh; */
 }
 
 #name{
     font-size: 2rem;
+}
+
+#text{
+    margin-left: 5%;
 }
