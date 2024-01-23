@@ -50,7 +50,7 @@ ul{
     list-style: none;
 }
 
-li{
+ul li{
     padding-left: 10px;
 }
 
@@ -81,16 +81,23 @@ img{
     background-color: #9CAF88;
     height: auto;
     margin-bottom: 40px;
+    text-align: center;
 }
+
 
 #Why{
     margin-left: 3%;
     /* margin-right: 3%; */
 }
 
+#AboutOrg  li{
+    padding-top: 10px;
+    list-style-type: none;
+}
 
-h2, p{
-    text-align: center;
+#AboutOrg li a{
+    text-decoration: none;
+    color: white;
 }
 
 b{
