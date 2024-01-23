@@ -33,7 +33,7 @@ ul{
     list-style: none;
 }
 
-li{
+ul li{
     padding-left: 10px;
 }
 
@@ -75,9 +75,10 @@ section{
     /* background-color: pink; */
     margin-right: 10%;
     text-align: center;
-    background-color: #9CAF88;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: hsl(89, 20%, 61%);
+    padding-top: 70px;
+    padding-bottom: 60px;
+    border-radius: 10%;
 }
 
 #Backend{
@@ -86,7 +87,7 @@ section{
 }
 
 #Backend li, #Frontend li{
-    padding-top: 10px;
+    padding-top: 25px;
     list-style-type: none;
 }
 
@@ -96,10 +97,13 @@ section{
     font-size: 1.5rem;
 }
 
-/* #Frontend{
-    
-} */
+img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 15%;
+    height: 25vh;
+}
 
-/* p{
-    text-align: center;
-} */
+h2{
+    font-size: 2rem;
+}

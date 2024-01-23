@@ -33,7 +33,7 @@ ul{
     list-style: none;
 }
 
-li{
+ul li{
     padding-left: 10px;
 }
 
@@ -42,16 +42,13 @@ ul li a{
     color: white;
 }
 
-/* section{
+section{
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 30px;
     justify-content: center;
+    /* background-color: black; */
 
-} */
+}
 
 #TopBanner{
     background-color: #9CAF88;
@@ -68,9 +65,70 @@ ul li a{
 
 }
 
-
-
-
-/* p{
+#Documentation{
+    display: flex;
     text-align: center;
-} */
+    padding-bottom: 5%;
+}
+
+#Documentation  li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+#Documentation li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+img{
+    margin-top: 20px;
+}
+
+#cardTower{
+    background-color: #9CAF88;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+img{
+    height: 40vh;
+}
+
+#AdditionalFiles{
+    padding-top: 10px;
+    margin-right: 5%;
+    background-color: #9CAF88;
+}
+
+#AdditionalFiles li{
+    margin-top: 10px;
+}
+
+#GanntChart{
+    text-align: center;
+    /* background-color: black; */
+    margin-top: 15px;
+}
+
+#GanntChart img{
+    border: 7px solid #9CAF88;
+}
+
+#GanntChart h2{
+    font-size: 2.5rem;
+}
+
+#GanntChart  li{
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+#GanntChart li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
