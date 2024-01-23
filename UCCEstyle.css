@@ -27,6 +27,23 @@ nav{
     flex-wrap: wrap;
 }
 
+section{
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#TopBanner{
+    background-color: #9CAF88;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 ul{
     display: flex;
     text-decoration: none;
@@ -42,66 +59,40 @@ ul li a{
     color: white;
 }
 
-section #Research li,section #UCCE li, section #Documentation li{
-   padding-top: 20px;
-   list-style-type: none;
-   text-align: center;
-}
-
-section #Research li a,section #UCCE li a, section #Documentation li a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
-}
-
-
-section{
-    /* width: 100vw;
-    height: 100vh; */
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    justify-content: center;
-
-}
-
-#TopBanner{
-    background-color: #9CAF88;
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #TopBanner b{
     color: white;
     font-size: 4rem;
-
 }
 
 img{
-    width:20vw;
-    border-radius: 50%
+    border: 5px solid black;
 }
 
-#Research, #UCCE, #Documentation{
+#Logo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #CBD5C0;
+    height: 45vh;
+    justify-content: center;
+}
+
+#AboutOrg, #Why, #ProjectDes{
     padding: 20px;
     background-color: #9CAF88;
     height: auto;
     margin-bottom: 40px;
-    border-radius: 10%;
-    
 }
 
-#UCCE{
+#Why{
     margin-left: 3%;
     margin-right: 3%;
 }
 
 
-
-/* p{
+h2, p{
     text-align: center;
-} */
+}
+
+b{
+    text-align: center;
+}
