@@ -53,6 +53,8 @@ li a{
     padding-right: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
+    align-items: center;
+    justify-content: center;
 }
 
 #TopBanner{
@@ -80,7 +82,7 @@ li a{
 }
 
 img{
-    width:50vw;
+    width:20vw;
     border-radius: 50%
 }
 

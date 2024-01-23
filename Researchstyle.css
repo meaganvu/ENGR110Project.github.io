@@ -42,16 +42,19 @@ ul li a{
     color: white;
 }
 
-/* section{
+section{
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
+    /* height: 100vh; */
     justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
 
-} */
+#text{
+    
+    margin-top: 50px;
+    display: flex;
+}
 
 #TopBanner{
     background-color: #9CAF88;
@@ -68,7 +71,34 @@ ul li a{
 
 }
 
+#Backend, #Frontend{
+    /* background-color: pink; */
+    margin-right: 10%;
+    text-align: center;
+    background-color: #9CAF88;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+#Backend{
+    margin-left: 10%;
+    text-align: center;
+}
+
+#Backend li, #Frontend li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+#Backend li a, #Frontend li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* #Frontend{
+    
+} */
 
 /* p{
     text-align: center;

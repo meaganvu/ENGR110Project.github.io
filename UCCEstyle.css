@@ -76,7 +76,7 @@ img{
     justify-content: center;
 }
 
-#AboutOrg, #Why, #ProjectDes{
+#AboutOrg, #Why{
     padding: 20px;
     background-color: #9CAF88;
     height: auto;
@@ -85,7 +85,7 @@ img{
 
 #Why{
     margin-left: 3%;
-    margin-right: 3%;
+    /* margin-right: 3%; */
 }
 
 
