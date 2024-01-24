@@ -71,7 +71,7 @@ section{
 
 }
 
-#Backend, #Frontend{
+#Research, #Personal{
     /* background-color: pink; */
     margin-right: 10%;
     text-align: center;
@@ -81,17 +81,17 @@ section{
     border-radius: 10%;
 }
 
-#Backend{
+#Research{
     margin-left: 10%;
     text-align: center;
 }
 
-#Backend li, #Frontend li{
+#Research li, #Personal li{
     padding-top: 25px;
     list-style-type: none;
 }
 
-#Backend li a, #Frontend li a{
+#Research li a, #Personal li a{
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
