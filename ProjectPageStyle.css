@@ -56,8 +56,6 @@ section #Personal li a,section #UCCE li a, section #Documentation li a{
 
 
 section{
-    /* width: 100vw;
-    height: 100vh; */
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
@@ -82,8 +80,8 @@ section{
 }
 
 img{
+    border-radius: 50%;
     width:20vw;
-    border-radius: 50%
 }
 
 #Personal, #UCCE, #Documentation{
@@ -92,7 +90,6 @@ img{
     height: auto;
     margin-bottom: 40px;
     border-radius: 10%;
-    
 }
 
 #UCCE{

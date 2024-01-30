@@ -43,7 +43,7 @@ ul li a{
 }
 
 section{
-    width: 100vw;
+    /* width: 100vw; */
     margin-top: 30px;
     justify-content: center;
     /* background-color: black; */
@@ -66,7 +66,7 @@ section{
 }
 
 #Documentation{
-    display: flex;
+    /* display: flex; */
     text-align: center;
     padding-bottom: 5%;
 }
@@ -92,6 +92,7 @@ img{
     padding-bottom: 10px;
     margin-left: 5%;
     margin-right:5%;
+    width: 45vw;
 }
 
 img{
@@ -102,6 +103,7 @@ img{
     padding-top: 10px;
     margin-right: 5%;
     background-color: #9CAF88;
+    width: 45vw;
 }
 
 #AdditionalFiles li{
@@ -131,4 +133,25 @@ img{
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
+}
+
+#Stack{
+    display: flex;
+}
+
+#IdeaPitch{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #9CAF88;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+#IdeaPitch p{
+    margin-top: 10px;
+    font-size: 1.25rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.2;
+
 }

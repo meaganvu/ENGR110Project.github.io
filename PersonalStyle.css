@@ -43,7 +43,7 @@ ul li a{
 }
 
 section{
-    width: 100vw;
+    width: 90vw;
     /* height: 100vh; */
     justify-content: center;
     align-items: center;
@@ -53,7 +53,6 @@ section{
 #text{
     
     margin-top: 50px;
-    display: flex;
 }
 
 #TopBanner{
@@ -73,18 +72,23 @@ section{
 
 #Research, #Personal{
     /* background-color: pink; */
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
     text-align: center;
     background-color: hsl(89, 20%, 61%);
-    padding-top: 70px;
-    padding-bottom: 60px;
-    border-radius: 10%;
+    padding-top: 40px;
+    /* padding-bottom: 60px; */
+    border-radius: 25px;
     margin-bottom: 40px;
 }
 
 #Research{
-    margin-left: 10%;
     text-align: center;
+    padding-bottom: 60px;
+}
+
+#Personal{
+    padding-bottom: 30px;
 }
 
 #Research li, #Personal li{
@@ -107,4 +111,24 @@ img{
 
 h2{
     font-size: 2rem;
+}
+
+hr{
+    width: 90%;
+    size: 5;
+    color: #CBD5C0;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+h1{
+    margin-top: 15px;
+}
+
+p{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.1rem;
 }

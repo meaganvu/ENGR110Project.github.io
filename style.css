@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Copperplate', fantasy;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -29,9 +30,9 @@ nav{
 
 section{
     width: 100vw;
-    height: 100vh;
-    background-color: white;
-    /* display: flex; */
+    /* height: 100vh; */
+    /* background-color: white; */
+    background-color: #CBD5C0;
 }
 
 #TopBanner{
@@ -44,13 +45,14 @@ section{
 }
 
 #description{
-    /* display: flex; */
-    /* align-items: center; */
     justify-content: center;
+    background-color: white;
     background-color: #CBD5C0;
-    width: 100vw;
-    height: 80vh;
-    padding: 10%;
+    width: 70vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:8%;
+
 }
 
 ul{
@@ -73,7 +75,43 @@ ul li a{
     font-size: 1.5rem;
 }
 
+#Content{
+    display:flex;
+}
+
 #TopBanner b{
     color: white;
     font-size: 4rem;
 }
+
+#ProblemStatement{
+    width: 30vw;
+    height: 75vh;
+    background-color: #9CAF88;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#ProblemStatement h2{
+    margin-top: 3%;
+    font-size: 2rem;
+    text-align: center;
+}
+#ProblemStatement p{
+    margin-top: 8%;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.2;
+}
+
+#description a{
+    text-decoration: none;
+    color: white;
+}
+
+
