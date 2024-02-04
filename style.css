@@ -86,7 +86,8 @@ ul li a{
 
 #ProblemStatement{
     width: 30vw;
-    height: 75vh;
+    /* height: 75vh; */
+    height: auto;
     background-color: #9CAF88;
     border-radius: 10px;
     margin-left: 10%;
