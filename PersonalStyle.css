@@ -99,7 +99,14 @@ section{
 #Research li a, #Personal li a{
     text-decoration: none;
     color: white;
+}
+
+#Research li a{
     font-size: 1.5rem;
+
+}
+
+#Personal li a{
 }
 
 img{
