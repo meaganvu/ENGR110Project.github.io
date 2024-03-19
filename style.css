@@ -110,7 +110,7 @@ ul li a{
     line-height: 1.2;
 }
 
-#description a{
+p a{
     text-decoration: none;
     color: white;
 }

@@ -33,6 +33,119 @@
             <h2>Personal Contributions</h2>
             <hr noshade=""
                 color="CBD5C0">
+
+            
+            <h1>Week 10</h1>
+            <p>
+            During Week 10, we were finishing up all the small details that we needed to complete prior to sending Victoria all the information adn develeriables. This mostly consisted of making sure permissions for all the different documents were granted to Victoria, or ownership was transfered.
+            This included the google form, google sheets, and git hub repository. Additionally we had to finish our final report to turn into Dr. JAK. Taking into consideration Aly's comments, we revised our Final Report Draft. In this version we cleaned up the bullet points into paragraph form, inserting images, and added
+            neccesary citations for our in text references. We also delievered a google doc to Victoria maintaing links to all the deliverables she needs. This includes a link to the site that needs to be embedded on UCCE's end, a link to the github hosting the calculator, the google form she needs to fill in the future, and the google sheet
+            that contains the data. She has access and ownership for all of these delieverables making for a smooth transition between a SCU project and a UCCE webstie component.
+            <br><br>
+            </p>
+
+            <h1>Week 9</h1>
+            <p>
+            During Week 9, I figured out how to implement a live data feature on the website using Google slides and Google forms. Using the previous team's API key, I made a public google sheets which allows the API to retrieve 8 data points from the cells.
+            From there, my code inputs this data into two graphs. One graph represents the food waste composted by survey participants, and I also have a bar graph that displays the yard composting values. The way that the survery data is gather is in options rather than inputed responses. 
+            For example, a user for food waste as the option responding with 0.25, 0.5, 1, 2, 3 and 4 gallons, but they are not allowed to input custom values like 3.2 gallons. A UCCE CEP employee would simply use EXCEL commands to count the occurances for each value
+            and input this to the google form. Once the site is reloaded after the new submission is processed, the live data will be updated onto the website. 
+            Additionally I created a guide to help victoria accurately and consistently gather these value counts. There are some conversions from strings to integers with this process and negating some values that we are not able to access, thus with my guide she would know what to do when 
+            unusual occurances happen. 
+            <br><br> 
+
+            Finally we uploaded all the code to the github and now we have a perfectly working link! Here is the link! https://amangalick.github.io/src/pages/home.html
+            <br><br>
+            </p>
+            <div id = "pic">
+
+            <img id="update" src="images/FinalReportFullPage.png" alt="" margin-left="auto">
+            <img id="update" src="images/FinalReportGoogleForm.png" alt="">
+            </div>
+
+            <h1>Week 8</h1>
+            <p>
+            During Week 8, I was tasked to create the google form and google sheet that our javascript would pull from. I was able to sucesfully link the google form, but unfornatuely I don't believe that we will be using this new form.
+            The original idea was that Victoria would download their data into a EXCEL sheet and use EXCEL commands to get means, standard deviations, and summations of each composting type (Food, Yard, and Combined Waste). This would then be 
+            displayed on our website and my idea was that there is enough data to represent this in a normal distribution graph. This would also give us rough estimates of percentiles which would be calculated and inform the user on how well they composted compared t
+            to the Qualtrics data base. Unfortunately as I was looking at the data that Victoria pulled from the Qualtrics data base, it seems like their data is sparse and the format of the answers were "Option 1: 10 gallons". This eliminates the option of having Victoria 
+            use EXCEL commands and would require her to manually calculate the mean, sum, and standard deviation of all three categories. This is definately not ideal since this should not be strenious on Victoria. Thus, all my contributions for week 8 will not be displayed on the website.
+
+            <br><br>
+
+            I also started working on the Final Draft with the team. I started inputting my sources into the document as well as inserting the images that I created on figma for the website. Additionally I formatted the paper so it would resemble the final paper as much as possible 
+            so that we would have to do less work going forward on the actual Final Paper.
+
+            <br><br>
+            </p>
+
+            <h1>Week 7</h1>
+            <p>
+            During week 7, we had our Update Presentation to Victoria. After the presentation, she expressed to us that she liked the direction of our project, but she did give us one critique. The comment was that our project
+            should be less focused on comparing users data with their database and more focused on contextulizing the data that we are presenting them. She also mentioned that she would love for us to 
+            include some sort of time metric into the data, which I think if we have time, we could implement with some sort of end of year projection. 
+
+            <br><br> 
+
+            For the rest of the week, my focus was on implementing the animations that we wanted to incorporated onto the website. These applied to two components, the moving car as well as the moving battery. For the moving car, 
+            this was implemented by using an image of a car and having it move within the box that it is assinged to. For this I looked up the process on youtube and adjusted it to fit our specific project and website specifications.
+            For the moving battery, I created 5 different stages of the battery charging on figma and essentailly created a slideshow of the 5 images that make it appear that only the battery is moving. For this youtube and chatgpt were helpful
+            to find the bugs and specify it to our implementation. 
+
+            <br><br>
+
+            I also wanted to fix a couple of bugs that appear while testing the website. Initally the popup display window showed up on top of the website without any overlay to cover the main webiste. This made it difficult to focus on the popup display, so I fixed that bug. 
+            I also tested our website on different display sizes including mobile, tablet, and standard desktop and found that while the site is compatible with different sizes, the layout had to be changed when we went on smaller screens. For this I added break points for visual displays that 
+            had the different boxes all structured vertically on top of each other rather than havign some horizontally stacked.
+
+            <br><br>
+            </p>
+
+        <div id="videos">
+            <div class="video">
+                <video width="320" height="240" id="carVideo">
+                    <source src="images/carMovingVideo.mp4" type="video/mp4">
+                </video>
+    
+                <button onclick="playVideo('carVideo')" width="100">Play Car Video</button>
+            </div>
+
+            <div class="video">
+                <video width="320" height="240" id="phoneVideo">
+                    <source src="images/phoneChargingVideo.mp4" type="video/mp4">
+                </video>
+                
+                <button onclick="playVideo('phoneVideo')">Play Phone Video</button>
+            </div>
+        </div>
+            
+            <script>
+                function playVideo(videoId) {
+                    var video = document.getElementById(videoId);
+                    video.play();
+                }
+            </script>
+
+            <style>
+                .video{
+                    display: flex;
+                    flex-direction: column;
+                }    
+
+                .video button{
+                    margin-top: 10px;
+                    width: 50%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                
+                #videos{
+                    display:flex;
+                    justify-content: center;
+                    margin-bottom: 30px;
+                }
+            </style>
+
             <h1>Week 6</h1>
             <p>
                 Week 6's work surrounded implementing our design within the javascript file. I took adjusting the calculation conversion boxes while my partner Ron added pop up windows
